@@ -460,6 +460,9 @@
 
 
 /* footer */
+.bg-dark-light {
+    background-color: #212121;
+}
 .text-gray {
     color: #7F7F7F;
 }
