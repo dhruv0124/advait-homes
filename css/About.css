@@ -91,13 +91,16 @@
 .pos-ab p {
     font-size: 18px;
 }
+
 @media (max-width : 768px) {
     .pos-ab {
         left: 3%;
     }
+
     .fs-64 {
         font-size: 55px;
     }
+
     .pos-ab p {
         font-size: 16px;
     }
@@ -130,20 +133,28 @@
 
 
 /* Gallary */
-
 .fsg-40 {
     font-size: 40px;
 }
 
-.slide-box::after {
-    content: 'learn More';
-    background-color: rgba(2, 2, 2, 0.774);
-    top: 10%;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
+.gallary-pos {
     position: absolute;
+    top: 45%;
+    left: 35%;
 }
+
+.slide-box:hover {
+    opacity: 0.4;
+}
+
+.g-none .gallary-pos {
+    display: none;
+}
+
+.g-none:hover .gallary-pos {
+    display: block;
+}
+
 
 .slick-next,
 .slick-prev {
@@ -162,6 +173,7 @@
     right: 3% !important;
 }
 
+
 .slick-prev:before {
     content: '→';
     position: absolute;
@@ -169,6 +181,7 @@
     border: 1px solid white;
     padding: 5px 10px;
 }
+
 
 .slick-prev {
     left: 90% !important;
@@ -185,7 +198,7 @@
 @media (max-width : 768px) {
 
     .fsg-40 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .slick-next,
@@ -203,6 +216,38 @@
 
 }
 
+@media (max-width: 425px) {
+    .slick-next {
+        right: 45% !important;
+    }
+
+    .slick-prev {
+        left: 35% !important;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: 105% !important;
+    }
+
+}
+
+@media (max-width:320px) {
+    .slick-next {
+        right: 42% !important;
+    }
+
+    .slick-prev {
+        left: 30% !important;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: 105% !important;
+    }
+
+}
+
 /* Our Amenities */
 :root {
     --main-green: rgba(130, 169, 60, 1);
@@ -212,6 +257,7 @@
     --full-body-bk: rgba(27, 27, 27, 1);
 
 }
+
 /* need */
 .need .row {
     background-color: var(--light-gry);
@@ -561,6 +607,7 @@
 .bg-dark-light {
     background-color: #212121;
 }
+
 .text-gray {
     color: #7F7F7F;
 }

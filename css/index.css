@@ -188,16 +188,21 @@
 .fsg-40 {
     font-size: 40px;
 }
-
-.slide-box::after {
-    content: 'learn More';
-    background-color: rgba(2, 2, 2, 0.774);
-    top: 10%;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
+.gallary-pos {
     position: absolute;
+    top: 45%;
+    left: 35%;
 }
+.slide-box:hover{
+    opacity: 0.4;
+}
+.g-none .gallary-pos{
+    display: none;
+}
+.g-none:hover .gallary-pos{
+    display: block;
+}
+
 
 .slick-next,
 .slick-prev {
@@ -216,6 +221,7 @@
     right: 3% !important;
 }
 
+
 .slick-prev:before {
     content: '→';
     position: absolute;
@@ -223,6 +229,7 @@
     border: 1px solid white;
     padding: 5px 10px;
 }
+
 
 .slick-prev {
     left: 90% !important;
@@ -255,6 +262,32 @@
         left: 85% !important;
     }
 
+}
+@media (max-width: 425px) {
+    .slick-next {
+        right: 45% !important;
+    }
+    .slick-prev {
+        left: 35% !important;
+    }
+    .slick-next,
+    .slick-prev {
+        top: 105% !important;
+    }
+    
+}
+@media (max-width:320px) {
+    .slick-next {
+        right: 42% !important;
+    }
+    .slick-prev {
+        left: 30% !important;
+    }
+    .slick-next,
+    .slick-prev {
+        top: 105% !important;
+    }
+    
 }
 
 /*  What We Do ( Our Serrvice ) */
