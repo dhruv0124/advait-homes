@@ -14,6 +14,9 @@
 .row {
     --bs-gutter-x: 0rem !important;
 }
+.z-index{
+    z-index: 1;
+}
 
 .text-green {
     color: #82A93C !important;
@@ -181,6 +184,7 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    transition: all 0.3s ease-in-out;
 }
 
 .our-box p {

@@ -29,7 +29,7 @@
             </div>
         </div>
         <!-- hdr ✔✔-->
-        <nav class="navbar navbar-expand-lg fixed-top ">
+        <nav class="navbar navbar-expand-lg z-index">
             <div class="container">
                 <a class="navbar-brand text-white" href="#"><img src="/img/Mask group.png" style="color: white;"
                         width="100" alt=""></a>
@@ -273,6 +273,40 @@
         </div>
     </div>
 
+    <!-- Project -->
+    <div class="container project" style="position: relative;">
+        <div class="d-flex align-items-center justify-content-md-between  justify-content-center">
+            <div>
+                <h5 class="text-green fs-20  text-md-start text-center">Projects</h5>
+                <h2 class="fsg-40 text-white text-md-start text-center font-Kalnia">Our latest Projects (Villas)</h2>
+            </div>
+            <div class="d-md-block d-none">
+                <button class="btn btn-outline text-white fs-18 me-2" type="button">View Projects
+                    <i class="fa-solid fa-angles-right"></i>
+                </button>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class=" center">
+                <div class="">
+                    <img src="/img/first.png" width="100%" />
+                </div>
+                <div class="">
+                    <img src="/img/sec.png" width="100%" />
+                </div>
+                <div class="">
+                    <img src="/img/third.png" width="100%" />
+                </div>
+            </div>
+        </div>
+        <div class="d-md-none d-block  text-center">
+            <button class="btn btn-outline text-white fs-18 me-2" type="button">View Projects
+                <i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
     <!-- Footer ✔✔-->
     <section class="bg-dark-light ">
         <div class="container mt-5 py-5">
@@ -439,6 +473,39 @@
                 span1.style.display = "inline";
             }
         }
+
+        // project
+        $(document).ready(function () {
+            $('.center').slick({
+                centerMode: true,
+                centerPadding: '100px',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                nextArrow: false,
+                prevArrow: false,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
     </script>
 </body>
 

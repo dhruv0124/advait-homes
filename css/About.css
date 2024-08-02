@@ -14,7 +14,9 @@
 .row {
     --bs-gutter-x: 0rem !important;
 }
-
+.z-index{
+    z-index: 1;
+}
 
 /* hdr */
 .btn-outline {
@@ -673,7 +675,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: white;
-    background-color: #212529 !important;
+    background-color: #212121 !important;
     background-clip: padding-box;
     border: 1px solid #7F7F7F;
     -moz-appearance: none;

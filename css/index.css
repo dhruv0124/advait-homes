@@ -15,6 +15,10 @@
     --bs-gutter-x: 0rem !important;
 }
 
+.z-index {
+    z-index: 1;
+}
+
 /* hdr */
 .btn-outline {
     border: 1px solid white !important;
@@ -136,11 +140,13 @@
     left: 41%;
     font-size: 30px;
 }
+
 .border-mouse {
     border: 1px dashed #82A93C;
     rotate: -90deg;
     width: 90px;
 }
+
 @media (max-width:425px) {
     .mouse-icon {
         position: absolute;
@@ -159,9 +165,11 @@
     color: white;
     z-index: 1;
 }
+
 .pos-ab p {
     font-size: 18px;
 }
+
 @media (max-width:1440px) {
     .pos-ab {
         content: 'projects';
@@ -171,8 +179,9 @@
         left: 27%;
         color: white;
         z-index: 1;
-    } 
+    }
 }
+
 @media (max-width:1024px) {
     .pos-ab {
         content: 'projects';
@@ -184,16 +193,20 @@
         z-index: 1;
     }
 }
+
 @media (max-width : 768px) {
     .pos-ab {
         left: 3%;
     }
+
     .fs-64 {
         font-size: 55px;
     }
+
     .pos-ab p {
         font-size: 16px;
     }
+
     .pos-ab {
         content: 'projects';
         position: absolute;
@@ -202,7 +215,7 @@
         left: 10%;
         color: white;
         z-index: 1;
-    } 
+    }
 }
 
 
@@ -234,18 +247,22 @@
 .fsg-40 {
     font-size: 40px;
 }
+
 .gallary-pos {
     position: absolute;
     top: 45%;
     left: 35%;
 }
-.slide-box:hover{
+
+.slide-box:hover {
     opacity: 0.4;
 }
-.g-none .gallary-pos{
+
+.g-none .gallary-pos {
     display: none;
 }
-.g-none:hover .gallary-pos{
+
+.g-none:hover .gallary-pos {
     display: block;
 }
 
@@ -309,38 +326,45 @@
     }
 
 }
+
 @media (max-width: 425px) {
     .slick-next {
         right: 45% !important;
     }
+
     .slick-prev {
         left: 35% !important;
     }
+
     .slick-next,
     .slick-prev {
         top: 105% !important;
     }
-    
+
 }
+
 @media (max-width:320px) {
     .slick-next {
         right: 42% !important;
     }
+
     .slick-prev {
         left: 30% !important;
     }
+
     .slick-next,
     .slick-prev {
         top: 105% !important;
     }
-    
+
 }
 
 /*  What We Do ( Our Serrvice ) */
-.card{
+.card {
     background-color: transparent !important;
     border: none !important;
 }
+
 .our-box {
     width: 100%;
     height: 190px;
@@ -355,36 +379,43 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    transition: all 0.3s ease-in-out;
 }
-.our-box p{
+
+.our-box p {
     font-size: 14px;
 }
-.ancor{
+
+.ancor {
     color: black;
 }
 
-.our-box:hover{
+.our-box:hover {
     background-color: #212121 !important;
-    color: white  !important;
+    color: white !important;
 }
-.our-box:hover .ancor{
-    color: #82A93C  !important;
+
+.our-box:hover .ancor {
+    color: #82A93C !important;
 }
-.d-block1{
+
+.d-block1 {
     display: block;
 }
-.d-none1{
+
+.d-none1 {
     display: none;
 }
 
 @media (max-width : 768px) {
-    .d-block1{
+    .d-block1 {
         display: none;
     }
-    .d-none1{
+
+    .d-none1 {
         display: block;
     }
-    
+
 }
 
 
@@ -921,10 +952,23 @@ img {
 
 
 /* Testimonial */
-.Ttesti-box {
+ .testi-box {
     background-color: #292929;
     padding: 15px 30px;
+    text-align: center;
+    align-items: center;
 }
+
+.testi-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.test-img{
+    background-color: #333333;
+    text-align: center;
+}
+
 
 
 /* Get Inspired */
