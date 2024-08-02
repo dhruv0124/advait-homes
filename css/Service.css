@@ -14,7 +14,8 @@
 .row {
     --bs-gutter-x: 0rem !important;
 }
-.z-index{
+
+.z-index {
     z-index: 1;
 }
 
@@ -102,7 +103,7 @@
         left: 32%;
         font-size: 30px;
     }
-    
+
 }
 
 .pos-ab {
@@ -120,11 +121,12 @@
 }
 
 @media (max-width : 320px) {
-    .pos-ab {  
+    .pos-ab {
         top: 31%;
         left: 1%;
     }
 }
+
 @media (max-width:1440px) {
     .pos-ab {
         content: 'projects';
@@ -197,6 +199,16 @@
     transition: all 0.3s ease-in-out;
 }
 
+.our-icon {
+    position: absolute;
+    top: 13px;
+    right: 6px;
+    z-index: 999;
+    background: #82A93C;
+    padding: 10px;
+    border-radius: 50%
+}
+
 .our-box p {
     font-size: 14px;
 }
@@ -232,6 +244,150 @@
     }
 
 }
+
+
+
+/* Testimonial */
+.testi-box {
+    background-color: #292929;
+    padding: 15px 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.testi-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.center-img {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-img {
+    background-color: #333333;
+    text-align: center;
+}
+
+.slick-center {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+
+.testimonial-container {
+    position: relative;
+}
+
+.slick-prev-testimonial,
+.slick-next-testimonial {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    /* Optional: to style the buttons */
+    border: none;
+    /* Optional: to remove default button border */
+    padding: 8px 10px;
+    /* Optional: to style the buttons */
+    cursor: pointer;
+    border-radius: 48%;
+    color: #82A93C;
+    z-index: 1;
+}
+
+.slick-prev-testimonial {
+    left: 336px;
+}
+
+.slick-next-testimonial {
+    right: 336px;
+}
+
+@media (max-width : 1024px) {
+    .slick-prev-testimonial {
+        left: 263px;
+    }
+
+    .slick-next-testimonial {
+        right: 263px;
+    }
+
+    .slick-prev-testimonial,
+    .slick-next-testimonial {
+        top: 40%;
+        padding: 10px;
+    }
+}
+
+@media (max-width : 768px) {
+    .slick-prev-testimonial {
+        left: 334px;
+    }
+
+    .slick-next-testimonial {
+        right: 334px;
+    }
+
+    .slick-prev-testimonial,
+    .slick-next-testimonial {
+        top: 114%;
+        padding: 10px;
+    }
+}
+
+@media (max-width : 425px) {
+    .slick-prev-testimonial {
+        left: 165px;
+    }
+
+    .slick-next-testimonial {
+        right: 165px;
+    }
+
+    .slick-prev-testimonial,
+    .slick-next-testimonial {
+        top: 114%;
+        padding: 10px;
+    }
+}
+
+@media (max-width : 375px) {
+    .slick-prev-testimonial {
+        left: 145px;
+    }
+
+    .slick-next-testimonial {
+        right: 145px;
+    }
+
+    .slick-prev-testimonial,
+    .slick-next-testimonial {
+        top: 114%;
+        padding: 10px;
+    }
+}
+
+@media (max-width : 320px) {
+    .slick-prev-testimonial {
+        left: 115px;
+    }
+
+    .slick-next-testimonial {
+        right: 115px;
+    }
+
+    .slick-prev-testimonial,
+    .slick-next-testimonial {
+        top: 114%;
+        padding: 10px;
+    }
+}
+
 
 
 /* Our Amenities */
