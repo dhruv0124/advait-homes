@@ -154,6 +154,7 @@
         left: 32%;
         font-size: 30px;
     }
+    
 }
 
 .pos-ab {
@@ -206,7 +207,7 @@
     }
 
     .fs-64 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .pos-ab p {
@@ -606,7 +607,7 @@ img {
 .need_pd p,
 .need p {
     font-family: "Jost", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.16px;
@@ -649,12 +650,12 @@ img {
     }
 
     .need_pd p {
-        font-size: 12px;
+        font-size: 12px !important;
         line-height: 18px;
     }
 
     .need_pd {
-        padding: 12px 25px;
+        padding: 12px 14px;
     }
 }
 
@@ -662,7 +663,7 @@ img {
 
     /* need */
     .need_pd {
-        padding: 12px 15px;
+        padding: 12px 14px;
     }
 
     .pic_l1,
@@ -804,7 +805,7 @@ img {
     }
 
     .need p {
-        font-size: 12px;
+        font-size: 11px !important;
         line-height: 10px;
     }
 }
@@ -820,7 +821,7 @@ img {
     }
 
     .need p {
-        font-size: 12px !important;
+        font-size: 9px !important;
         line-height: 19px !important;
     }
 }

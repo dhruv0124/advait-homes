@@ -59,6 +59,8 @@
     border: none !important;
 }
 
+/* Mobile View hdr */
+
 .bg-img {
     background-image: url(../img/silde1.png);
     width: 100%;
@@ -80,21 +82,19 @@
     background-color: #2121218a;
 }
 
-.fs-64 {
-    font-size: 64px;
-}
-
 .mouse-icon {
     position: absolute;
     top: 125%;
     left: 41%;
     font-size: 30px;
 }
+
 .border-mouse {
     border: 1px dashed #82A93C;
     rotate: -90deg;
     width: 90px;
 }
+
 @media (max-width:425px) {
     .mouse-icon {
         position: absolute;
@@ -102,7 +102,9 @@
         left: 32%;
         font-size: 30px;
     }
+    
 }
+
 .pos-ab {
     content: 'projects';
     position: absolute;
@@ -117,6 +119,12 @@
     font-size: 18px;
 }
 
+@media (max-width : 320px) {
+    .pos-ab {  
+        top: 31%;
+        left: 1%;
+    }
+}
 @media (max-width:1440px) {
     .pos-ab {
         content: 'projects';
@@ -128,6 +136,7 @@
         z-index: 1;
     }
 }
+
 @media (max-width:1024px) {
     .pos-ab {
         content: 'projects';
@@ -139,13 +148,14 @@
         z-index: 1;
     }
 }
+
 @media (max-width : 768px) {
     .pos-ab {
         left: 3%;
     }
 
     .fs-64 {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     .pos-ab p {
@@ -156,8 +166,8 @@
         content: 'projects';
         position: absolute;
         text-align: center;
-        top: 40%;
-        left: 10%;
+        top: 31%;
+        left: 2%;
         color: white;
         z-index: 1;
     }
@@ -401,12 +411,12 @@
     }
 
     .need_pd p {
-        font-size: 12px;
+        font-size: 12px !important;
         line-height: 18px;
     }
 
     .need_pd {
-        padding: 12px 25px;
+        padding: 12px 14px;
     }
 }
 
@@ -414,7 +424,7 @@
 
     /* need */
     .need_pd {
-        padding: 12px 15px;
+        padding: 12px 14px;
     }
 
     .pic_l1,
@@ -539,7 +549,7 @@
 
     /* need */
     .need_pd {
-        padding: 8px;
+        padding: 6px;
     }
 
     .op_i,
@@ -556,8 +566,8 @@
     }
 
     .need p {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 11px !important;
+        line-height: 10px;
     }
 }
 
@@ -572,10 +582,11 @@
     }
 
     .need p {
-        font-size: 10px !important;
-        line-height: 10px;
+        font-size: 9px !important;
+        line-height: 19px !important;
     }
 }
+
 
 
 
