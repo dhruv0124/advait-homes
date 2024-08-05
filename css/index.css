@@ -1026,11 +1026,11 @@
 
 @media (max-width : 425px) {
     .slick-prev-testimonial {
-        left: 165px;
+        left: 107px;
     }
 
     .slick-next-testimonial {
-        right: 165px;
+        right: 107px;
     }
 
     .slick-prev-testimonial,
