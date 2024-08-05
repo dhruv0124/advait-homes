@@ -1,4 +1,4 @@
-  <div class="row">
+<!-- <div class="row">
                 <div class="col-12 col-lg-4 ">
                     <div class="card" style="width: 18rem;">
                         <img src="/img/get-1.jpg" class="card-img-top" alt="...">
@@ -26,4 +26,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+
+
+<!-- Coorection -->
+<!-- 1. small to Caps font all heading.
+2. Testimonial Carousel center zooming effect.
+3. Testimonial font family.
+4. Project carousel mobile view image font size
+5. remove project button in home page.
+6. testimonial mobile view carousel
+7. Get inspired section in homepage mobile view only one card show.
+8. AMENITIES testimonial section missing.
+9. Villas page in section 2 width not proper.
+10. Villas page in mobile view section 2 is missing. -->
