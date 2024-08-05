@@ -646,11 +646,11 @@
 
 @media (max-width:320px) {
     .carousel-control-next {
-        right: 100px !important;
+        right: 87px !important;
     }
 
     .carousel-control-prev {
-        left: 100px !important;
+        left: 87px !important;
     }
 }
 
