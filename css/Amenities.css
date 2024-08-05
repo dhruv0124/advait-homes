@@ -733,11 +733,11 @@
 
 @media (max-width : 425px) {
     .slick-prev-testimonial {
-        left: 165px;
+        left: 135px;
     }
 
     .slick-next-testimonial {
-        right: 165px;
+        right: 135px;
     }
 
     .slick-prev-testimonial,
