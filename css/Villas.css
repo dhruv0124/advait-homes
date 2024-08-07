@@ -177,6 +177,16 @@
     }
 }
 
+@media (max-width : 320px) {
+    .fs-64{
+        font-size: 45px !important;
+    }
+}
+
+.fs-64{
+    font-size: 64px;
+}
+
 /* footer */
 .text-gray {
     color: #7F7F7F;
